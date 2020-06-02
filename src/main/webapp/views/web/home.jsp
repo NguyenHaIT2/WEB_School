@@ -39,17 +39,6 @@
 
     <div class="col-lg-9">
 
-      <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-
       <div class="row">
 
         <div class="col-lg-4 col-md-6 mb-4">
@@ -70,12 +59,12 @@
 
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
-            <a href="#"><img src="image/diemdanh.png" alt=""></a>
+            <a href="#"><img src="<c:url value='/template/admin/img/hoatdong.png'/>" alt="Diem danh"></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Tài khoản</a>
+                <a href="#">Hoạt động</a>
               </h4>
-              <p class="card-text">Quản lý tài khoản
+              <p class="card-text">Cập nhật hoạt động trong ngày
               </p>
             </div>
             <div class="card-footer">
