@@ -18,7 +18,7 @@
 
     <div class="col-lg-3">
 
-      <h1 class="my-4">Shop Name</h1>
+      <h1 class="my-4">Quản lý trường học KidsOnline</h1>
       <div class="list-group">
         <%--
           	List<NewsModel> news = new ArrayList<NewsModel>();
@@ -40,22 +40,6 @@
     <div class="col-lg-9">
 
       <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Third slide">
-          </div>
-        </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
@@ -70,13 +54,12 @@
 
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#"><img src="image/diemdanh.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Item One</a>
+                <a href="#">Điểm danh</a>
               </h4>
-              <h5>$24.99</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
+              <p class="card-text">Điểm danh cho học sinh
               </p>
             </div>
             <div class="card-footer">
@@ -87,81 +70,12 @@
 
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#"><img src="image/diemdanh.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Item Two</a>
+                <a href="#">Tài khoản</a>
               </h4>
-              <h5>$24.99</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
-                Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Item Three</a>
-              </h4>
-              <h5>$24.99</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Item Four</a>
-              </h4>
-              <h5>$24.99</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Item Five</a>
-              </h4>
-              <h5>$24.99</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
-                Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Item Six</a>
-              </h4>
-              <h5>$24.99</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
+              <p class="card-text">Quản lý tài khoản
               </p>
             </div>
             <div class="card-footer">
