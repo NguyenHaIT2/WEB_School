@@ -54,7 +54,7 @@
 
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
-            <a href="#"><img src="image/diemdanh.png" alt=""></a>
+            <a href="#"><img src="<c:url value='/template/admin/img/diemdanh.png'/>" alt="Diem danh"></a>
             <div class="card-body">
               <h4 class="card-title">
                 <a href="#">Điểm danh</a>
