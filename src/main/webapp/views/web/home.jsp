@@ -79,7 +79,7 @@
         
 		<div class="col-lg-4 col-md-6 mb-4" style = "width : 80%;">
           <div class="card h-100" style = "width : 80vw; display: block;">
-            <a href="#" style = "width : 80%;"><img src="<c:url value='/template/admin/img/hoctap.png'/>" alt="Diem danh"></a>
+            <a href=<c:url value='/views/web/noidunghoctap/list.jsp'/> style = "width : 80%;"><img src="<c:url value='/template/admin/img/hoctap.png'/>" alt="Diem danh"></a>
             <div class="card-body" style = "width : 80vw; display: block;">
               <h4 class="card-title">
                 <a href="#">Học tập</a>
