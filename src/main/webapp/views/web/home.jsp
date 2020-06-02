@@ -61,10 +61,10 @@
         
         <div class="col-lg-4 col-md-6 mb-4" style = "width : 80%;">
           <div class="card h-100" style = "width : 80vw; display: block;">
-            <a href="#" style = "width : 80%;"><img src="<c:url value='/template/admin/img/hoatdongtrongngay.png'/>" alt="Diem danh"></a>
+            <a href=<c:url value='/views/web/hoatdong/hoatdong.jsp'/> style = "width : 80%;"><img src="<c:url value='/template/admin/img/hoatdongtrongngay.png'/>" alt="Diem danh"></a>
             <div class="card-body" style = "width : 80vw; display: block;">
               <h4 class="card-title">
-                <a href="#">Hoạt động</a>
+                <a href=<c:url value='/views/web/hoatdong/hoatdong.jsp'/>>Hoạt động</a>
               </h4>
               <p class="card-text">Cập nhật hoạt động trong ngày
               </p>
