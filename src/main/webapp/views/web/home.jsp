@@ -41,9 +41,9 @@
 
       <div class="row">
 
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img src="<c:url value='/template/admin/img/diemdanh.png'/>" alt="Diem danh"></a>
+        <div class="col-lg-4 col-md-6 mb-4" style = "width : 80%;">
+          <div class="card h-100" style = "width : 80%;">
+            <a href="#" style = "width : 80%;"><img src="<c:url value='/template/admin/img/diemdanh.png'/>" alt="Diem danh"></a>
             <div class="card-body">
               <h4 class="card-title">
                 <a href="#">Điểm danh</a>
@@ -56,10 +56,12 @@
             </div>
           </div>
         </div>
-
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img src="<c:url value='/template/admin/img/hoatdong.png'/>" alt="Diem danh"></a>
+        
+        
+        
+        <div class="col-lg-4 col-md-6 mb-4" style = "width : 80%;">
+          <div class="card h-100" style = "width : 80%;">
+            <a href="#" style = "width : 80%;"><img src="<c:url value='/template/admin/img/hoatdongtrongngay.png'/>" alt="Diem danh"></a>
             <div class="card-body">
               <h4 class="card-title">
                 <a href="#">Hoạt động</a>
@@ -72,7 +74,24 @@
             </div>
           </div>
         </div>
-
+        
+        
+        
+		<div class="col-lg-4 col-md-6 mb-4" style = "width : 80%;">
+          <div class="card h-100" style = "width : 80%;">
+            <a href="#" style = "width : 80%;"><img src="<c:url value='/template/admin/img/hoctap.png'/>" alt="Diem danh"></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Học tập</a>
+              </h4>
+              <p class="card-text">Lịch học tập
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- /.row -->
 
