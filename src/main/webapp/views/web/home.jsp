@@ -20,18 +20,18 @@
 
       <h1 class="my-4">Shop Name</h1>
       <div class="list-group">
-        <%
+        <%--
           	List<NewsModel> news = new ArrayList<NewsModel>();
           	news = (ArrayList) request.getAttribute("news");
           	List<CategoryModel> categories = new ArrayList<CategoryModel>();
           	categories = (ArrayList)request.getAttribute("categories");
           	for(CategoryModel category: categories){
 //           	for(NewsModel category: news){
-          %>
+          
         <a href="#" class="list-group-item"><%=category.getName() %></a>
         <!-- <a href="#" class="list-group-item">Category 2</a>
           <a href="#" class="list-group-item">Category 3</a> -->
-        <%} %>
+        <%} %>--%>
       </div>
 
     </div>
