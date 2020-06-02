@@ -18,20 +18,20 @@
 
     <div class="col-lg-3">
 
-      <h1 class="my-4">Shop Name</h1>
+      <h1 class="my-4">Quản lý trường học KidsOnline</h1>
       <div class="list-group">
-        <%
+        <%--
           	List<NewsModel> news = new ArrayList<NewsModel>();
           	news = (ArrayList) request.getAttribute("news");
           	List<CategoryModel> categories = new ArrayList<CategoryModel>();
           	categories = (ArrayList)request.getAttribute("categories");
           	for(CategoryModel category: categories){
 //           	for(NewsModel category: news){
-          %>
+          
         <a href="#" class="list-group-item"><%=category.getName() %></a>
         <!-- <a href="#" class="list-group-item">Category 2</a>
           <a href="#" class="list-group-item">Category 3</a> -->
-        <%} %>
+        <%} %>--%>
       </div>
 
     </div>
@@ -39,44 +39,16 @@
 
     <div class="col-lg-9">
 
-      <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Third slide">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-
       <div class="row">
 
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
+        <div class="col-lg-4 col-md-6 mb-4" style = "width : 80%;">
+          <div class="card h-100" style = "width : 80vw; display: block;">
+            <a href="#" style = "width : 80%;"><img src="<c:url value='/template/admin/img/diemdanh.png'/>" alt="Diem danh"></a>
+            <div class="card-body" style = "width : 80vw; display: block;">
               <h4 class="card-title">
-                <a href="#">Item One</a>
+                <a href="#">Điểm danh</a>
               </h4>
-              <h5>$24.99</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
+              <p class="card-text">Điểm danh cho học sinh
               </p>
             </div>
             <div class="card-footer">
@@ -84,33 +56,17 @@
             </div>
           </div>
         </div>
-
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
+        
+        
+        
+        <div class="col-lg-4 col-md-6 mb-4" style = "width : 80%;">
+          <div class="card h-100" style = "width : 80vw; display: block;">
+            <a href=<c:url value='/views/web/hoatdong/hoatdong.jsp'/> style = "width : 80%;"><img src="<c:url value='/template/admin/img/hoatdongtrongngay.png'/>" alt="Diem danh"></a>
+            <div class="card-body" style = "width : 80vw; display: block;">
               <h4 class="card-title">
-                <a href="#">Item Two</a>
+                <a href=<c:url value='/views/web/hoatdong/hoatdong.jsp'/>>Hoạt động</a>
               </h4>
-              <h5>$24.99</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
-                Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Item Three</a>
-              </h4>
-              <h5>$24.99</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
+              <p class="card-text">Cập nhật hoạt động trong ngày
               </p>
             </div>
             <div class="card-footer">
@@ -118,16 +74,17 @@
             </div>
           </div>
         </div>
-
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
+        
+        
+        
+		<div class="col-lg-4 col-md-6 mb-4" style = "width : 80%;">
+          <div class="card h-100" style = "width : 80vw; display: block;">
+            <a href=<c:url value='/views/web/noidunghoctap/list.jsp'/> style = "width : 80%;>"><img src="<c:url value='/template/admin/img/hoctap.png'/>" alt="Diem danh"></a>
+            <div class="card-body" style = "width : 80vw; display: block;">
               <h4 class="card-title">
-                <a href="#">Item Four</a>
+                <a href=<c:url value='/views/web/noidunghoctap/list.jsp'/>>Nội dung học tập</a>
               </h4>
-              <h5>$24.99</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
+              <p class="card-text">Lịch học tập
               </p>
             </div>
             <div class="card-footer">
@@ -135,42 +92,26 @@
             </div>
           </div>
         </div>
-
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Item Five</a>
-              </h4>
-              <h5>$24.99</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
-                Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Item Six</a>
-              </h4>
-              <h5>$24.99</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-            </div>
-          </div>
-        </div>
-
       </div>
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4" style = "width : 80%;">
+          <div class="card h-100" style = "width : 80vw; display: block;">
+            <a href="#" style = "width : 80%;"><img src="<c:url value='/template/admin/img/hinhanh.png'/>" alt="Diem danh"></a>
+            <div class="card-body" style = "width : 80vw; display: block;">
+              <h4 class="card-title">
+                <a href="#">Hình ảnh</a>
+              </h4>
+              <p class="card-text">Cập nhật hình ảnh
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       <!-- /.row -->
 
     </div>
