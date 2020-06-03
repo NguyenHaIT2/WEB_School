@@ -44,7 +44,7 @@
         <div class="col-lg-4 col-md-6 mb-4" style = "width : 80%;">
           <div class="card h-100" style = "width : 80vw; display: block;">
             <a href="#" style = "width : 80%;"><img src="<c:url value='/template/admin/img/diemdanh.png'/>" alt="Diem danh"></a>
-            <div class="card-body" style = "width : 80vw; display: block;">
+            <div class="card-body" style = "display: block;">
               <h4 class="card-title">
                 <a href="#">Điểm danh</a>
               </h4>
@@ -62,7 +62,7 @@
         <div class="col-lg-4 col-md-6 mb-4" style = "width : 80%;">
           <div class="card h-100" style = "width : 80vw; display: block;">
             <a href=<c:url value='/views/web/hoatdong/hoatdong.jsp'/> style = "width : 80%;"><img src="<c:url value='/template/admin/img/hoatdongtrongngay.png'/>" alt="Diem danh"></a>
-            <div class="card-body" style = "width : 80vw; display: block;">
+            <div class="card-body" style = "display: block;">
               <h4 class="card-title">
                 <a href=<c:url value='/views/web/hoatdong/hoatdong.jsp'/>>Hoạt động</a>
               </h4>
@@ -80,7 +80,7 @@
 		<div class="col-lg-4 col-md-6 mb-4" style = "width : 80%;">
           <div class="card h-100" style = "width : 80vw; display: block;">
             <a href=<c:url value='/views/web/noidunghoctap/list.jsp'/> style = "width : 80%;>"><img src="<c:url value='/template/admin/img/hoctap.png'/>" alt="Diem danh"></a>
-            <div class="card-body" style = "width : 80vw; display: block;">
+            <div class="card-body" style = " display: block;">
               <h4 class="card-title">
                 <a href=<c:url value='/views/web/noidunghoctap/list.jsp'/>>Nội dung học tập</a>
               </h4>
@@ -96,7 +96,7 @@
       
       
       <div class="col-lg-4 col-md-6 mb-4" style = "width : 80%;">
-          <div class="card h-100" style = "width : 80vw; display: block;">
+          <div class="card h-100" style = "display: block;">
             <a href="#" style = "width : 80%;"><img src="<c:url value='/template/admin/img/hinhanh.png'/>" alt="Diem danh"></a>
             <div class="card-body" style = "width : 80vw; display: block;">
               <h4 class="card-title">
