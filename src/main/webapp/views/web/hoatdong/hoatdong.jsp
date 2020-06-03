@@ -5,9 +5,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Hoạt động trong ngày</title>
 </head>
 <body>
-	
+	<h1>Hoạt động trong ngày của học sinh</h1>
 </body>
 </html>
